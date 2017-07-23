@@ -1,4 +1,6 @@
 *.iml
 */target/*
 *.log
-.idea/*
+*.log.*
+.idea/
+src/main/webapp/zero-space/node_modules/
