@@ -19,7 +19,8 @@ public class UrlServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 //        super.doGet(req, resp);
-        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/WEB-INF/views/index.htm");
+//        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/WEB-INF/views/index.htm");
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/WEB-INF/user-dashboard/dist/index.html");
         requestDispatcher.forward(req, resp);
     }
 

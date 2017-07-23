@@ -1,0 +1,5 @@
+2017-07-20 00:04:33,627 [qtp185587524-20] [org.springframework.web.servlet.DispatcherServlet] [DEBUG] - DispatcherServlet with name 'springMVC' processing GET request for [/home/123]
+2017-07-20 00:04:33,702 [qtp185587524-20] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [DEBUG] - Looking up handler method for path /home/123
+2017-07-20 00:04:33,721 [qtp185587524-20] [org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping] [DEBUG] - Returning handler method [public com.jyc.mw.model.UserModel com.jyc.mw.controller.HomeController.testModel(java.lang.Long)]
+2017-07-20 00:04:33,724 [qtp185587524-20] [org.springframework.beans.factory.support.DefaultListableBeanFactory] [DEBUG] - Returning cached instance of singleton bean 'homeController'
+2017-07-20 00:04:33,729 [qtp185587524-20] [org.springframework.web.servlet.DispatcherServlet] [DEBUG] - Last-Modified value for [/home/123] is: -1

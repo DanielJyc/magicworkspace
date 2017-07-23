@@ -34,7 +34,7 @@
     </servlet>
     <servlet-mapping>
         <servlet-name>urlServlet</servlet-name>
-        <url-pattern>/Layout</url-pattern>
+        <url-pattern>/index</url-pattern>
     </servlet-mapping>
 
 </web-app>
