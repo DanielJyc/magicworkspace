@@ -57,7 +57,7 @@ class Sider extends React.Component {
     return (
       <div>
         <div id="leftMenu">
-          <img src='src/assets/images/logo.png' width="50" id="logo"/>
+          <img src='./assets/images/logo.png' width="50" id="logo"/>
           <Menu theme="dark"
                 onClick={this.handleClick}
                 style={{width: 185}}
